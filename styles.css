@@ -1,0 +1,14 @@
+.container {
+    display: flex;   /* What is flexbox and flex.*/
+    border: 1px solid aquamarine;
+    justify-content: center;
+    width: 960px;
+    flex-wrap: wrap;
+}
+.container div {
+    width: 20px;
+    height: 20px;
+    border: 0px solid aquamarine;
+    background-color: darkgrey;
+    text-align: center;
+}
